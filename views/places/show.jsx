@@ -13,7 +13,9 @@ function show (data) {
             <h2>Rating</h2>
             <h4>Not Rated</h4>
             <h2>Description</h2>
-            <h4></h4>
+            <h4> Located in {data.place.city}, {data.place.state}</h4>
+            <h4><img src={data.place.pic} alt={data.place.name} /></h4>
+            
           </body>
         </Def>
     )
