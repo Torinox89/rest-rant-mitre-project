@@ -4,9 +4,17 @@ const Def = require('../default')
 function show (data) {
     return (
         <Def>
+          
           <main>
             <h1>{ data.place.name }</h1>
+                       
           </main>
+          <body>
+            <h2>Rating</h2>
+            <h4>Not Rated</h4>
+            <h2>Description</h2>
+            <h4></h4>
+          </body>
         </Def>
     )
 }
