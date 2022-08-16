@@ -2,6 +2,7 @@ const React = require('react')
 const Def = require('../default')
 
 function show (data) {
+  console.log(data)
     return (
         <Def>
           
@@ -11,7 +12,7 @@ function show (data) {
           </main>
           <body>
           <div className="col-sm-6">
-            <h4><img src={data.place.pic} alt={data.place.name} /></h4>
+            <h4><img src={data.place.pic} alt={data.place.name} className="place-image"/></h4>
             </div>
             <div className="block">
             <h2>Rating</h2>
