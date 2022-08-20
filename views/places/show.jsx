@@ -6,7 +6,7 @@ function show (data) {
     return (
         <Def>                
           <main>                                    
-            <body>
+            
               <div className="row">
                 <div className="col-sm-6">
                   <img src={data.place.pic} alt={data.place.name} />
@@ -25,20 +25,19 @@ function show (data) {
                   </h4>
                   <a href={`/places/${data.id}/edit`} className="btn btn-warning"> 
                     Edit
-                  </a>    
+                  </a>                 
                   <form method="POST" action={`/places/${data.id}?_method=DELETE`}> 
                     <button type="submit" className="btn btn-danger">
                       Delete
                     </button>
                   </form>
-                </div>          
+                 </div>          
               </div>
                   <h2>Comments</h2>
                   <h4>Not Comments yet</h4>
-            </body>
           </main>
         </Def>
-      )
-    }
+    )
+  }
 
 module.exports = show

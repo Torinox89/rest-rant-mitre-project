@@ -1,13 +1,14 @@
 const React = require('react')
 const Def = require('../default')
 
-function new_form () {
+function new_form (data) {
     return (
         <Def>
           <main>
-            <h1>Add a New Place</h1>
-  
+            <h1>Add a New Place</h1>            
             <form method="POST" action="/places">
+          <div className="row">
+            <div className="col-sm-6">     
               <div className="form-group">
                 <label htmlFor="name">Place Name</label>
                 <input className="form-control" id="name" name="name" required />
@@ -16,6 +17,8 @@ function new_form () {
                 <label htmlFor="pic">Place Picture</label>
                 <input className="form-control" id="pic" name="pic" />
               </div>
+            </div>
+            <div className="col-sm-6">
               <div className="form-group">
                 <label htmlFor="city">City</label>
                 <input className="form-control" id="city" name="city" />
@@ -24,16 +27,24 @@ function new_form () {
                 <label htmlFor="state">State</label>
                 <input className="form-control" id="state" name="state" />
               </div>
+            </div>
+            <div className="col-sm-6"> 
               <div className="form-group">
                 <label htmlFor="cuisines">Cuisines</label>
                 <input className="form-control" id="cuisines" name="cuisines" required />
               </div>
               <div className="form-group">
-                <label for="founded">Founded Year</label>
-                <input className="form-control" id="founded" name="founded" />
+                <label htmlFor="founded">Founded Year</label>
+                <input 
+                  type="number" 
+                  className="form-control" 
+                  id="founded" 
+                  name="founded" 
+                  value={new Date().getFullYear()} />
               </div>
-
-
+            </div>
+          </div>
+           
               <input className="btn btn-primary" type="submit" value="Add Place" />
             </form>                      
           </main>
