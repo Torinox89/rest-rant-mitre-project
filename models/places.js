@@ -10,7 +10,3 @@ const placeSchema = new mongoose.Schema({
 })
 
 module.exports = mongoose.model('Place', placeSchema)
-
-
-
-  
