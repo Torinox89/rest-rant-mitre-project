@@ -1,4 +1,4 @@
-const db = require('./models')
+const db = require('../models')
 
 db.Place.create([{
     name: 'H-Thai-ML',
@@ -11,6 +11,7 @@ db.Place.create([{
     name: 'Coding Cat Cafe',
     city: 'Phoenix',
     state: 'AZ',
+    
     cuisines: 'Coffee, Bakery',
     pic: '/images/coffee-cat.jpg',
     founded: 2020
