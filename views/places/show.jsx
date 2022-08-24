@@ -2,11 +2,14 @@ const React = require('react')
 const Def = require('../default')
 
 function show (data) {
-  console.log(data)
-    return (
+    console.log(data)
+    let comments = (
+      <h3 className="inactive">
+        No comments yet!
+      </h3>
+     return (
         <Def>                
-          <main>                                    
-            
+          <main>                              
               <div className="row">
                 <div className="col-sm-6">
                   <img src={data.place.pic} alt={data.place.name} />
@@ -34,10 +37,10 @@ function show (data) {
                  </div>          
               </div>
                   <h2>Comments</h2>
-                  <h4>Not Comments yet</h4>
+                   {comments}
           </main>
         </Def>
     )
-  }
+    }
 
 module.exports = show
