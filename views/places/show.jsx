@@ -7,6 +7,7 @@ function show (data) {
       <h3 className="inactive">
         No comments yet!
       </h3>
+      )
      return (
         <Def>                
           <main>                              
