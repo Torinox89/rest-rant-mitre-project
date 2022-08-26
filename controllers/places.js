@@ -57,6 +57,7 @@ router.get('/:id', (req, res) => {
   })
 })
 
+//PUT
 router.put('/:id', (req, res) => {
   db.Place.findByIdAndUpdate(req.params.id, req.body)
   .then(() => {
@@ -95,6 +96,7 @@ router.post('/:id/rant', (req, res) => {
   res.send('GET /places/:id/rant stub')
 })
 
+//comment
 router.post('/:id/comment', (req, res) => {
   console.log(req.body)
   db.Place.findById(req.params.id)
