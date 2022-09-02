@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "630034ac431312d6b167d8e4"
+  },
+  "name": "Hola 1",
+  "pic": "./images/jay-restaurant-one.jpg",
+  "cuisines": "TOP 1",
+  "city": "LB",
+  "state": "CA",
+  "founded": 1890,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630034e8431312d6b167d8e7"
+  },
+  "name": "HOLA 2",
+  "pic": "./images/malaniy-restaurant-two.jpg",
+  "cuisines": "TOP 2",
+  "city": "Lakewood",
+  "state": "CA",
+  "founded": 1891,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63007a8f5180bcec4af232ff"
+  },
+  "name": "Titanium",
+  "pic": "http://placekitten.com/400/400",
+  "cuisines": "Elixir",
+  "city": "LB",
+  "state": "CA",
+  "founded": 1674,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630332356056e848864400c5"
+  },
+  "name": "Condor",
+  "pic": "http://placekitten.com/400/400",
+  "cuisines": "Top 20",
+  "city": "",
+  "state": "",
+  "founded": 1875,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63044b40f2bc97ea5c7d4e3d"
+  },
+  "name": "Coding Cat Cafe",
+  "pic": "/images/coffee-cat.jpg",
+  "cuisines": "Coffee, Bakery",
+  "city": "Phoenix",
+  "state": "AZ",
+  "founded": 2020,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63044b40f2bc97ea5c7d4e3c"
+  },
+  "name": "H-Thai-ML",
+  "pic": "/images/h-thai-ml-tables.jpg",
+  "cuisines": "Thai, Pan-Asian",
+  "city": "Seattle",
+  "state": "WA",
+  "founded": 1989,
+  "__v": 3,
+  "comments": [
+    {
+      "$oid": "6306b11f41f67600940d512d"
+    },
+    {
+      "$oid": "630a453c696e5732ccd6c2f1"
+    },
+    {
+      "$oid": "630a45961c4e55e399a26b08"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63080447b04536cb9276a0dc"
+  },
+  "name": "karioca",
+  "pic": "http://placekitten.com/400/400",
+  "cuisines": "TOP 30",
+  "city": "ko",
+  "state": "OK",
+  "founded": 2002,
+  "comments": [],
+  "__v": 0
+}]
